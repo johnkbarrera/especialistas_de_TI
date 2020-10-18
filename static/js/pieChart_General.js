@@ -1,11 +1,11 @@
 
 var data_prop = [{
     values: [26000, 298000],
-    labels: ['Cliente Peligroso', 'Cliente Potencial'],
+    // labels: ['Cliente Peligroso', 'Cliente Potencial'],
     domain: { column: 0 },
     automargin: true,
     // name: 'P',
-    hoverinfo: 'label+percent+name',
+    hoverinfo: 'values',
     hole: .4,
     type: 'pie'
   }];
@@ -18,6 +18,7 @@ var data_prop = [{
           size: 20
         },
         showarrow: false,
+        text: '',
       }
       ],
       showlegend: true,
