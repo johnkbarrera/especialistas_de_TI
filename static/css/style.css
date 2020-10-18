@@ -1,0 +1,68 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.headertitle {
+  background-color: #072146; 
+  border-bottom: 4px solid #49a5e6
+}
+
+.header_menu{
+  margin-left: 65%;
+}
+
+.font_title{
+  font-family: 'Kaushan Script', cursive; 
+  color: white; 
+  /* margin-bottom: 40px;
+  margin-left: 60px; */
+  font-size: 35px;
+}
+
+.font_menu{
+  color: white; 
+  font-size: 20px;
+}
+
+/* .container {
+  background-color: black;
+} */
+
+.pymeInput{
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* #piechart{
+  margin-left: 25%;
+} */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
